@@ -1,48 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Orbitron:wght@700&family=Roboto:wght@100;400;900&family=Zilla+Slab:wght@700&display=swap');
 
 * {
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Orbitron', sans-serif;
-    background: white;
-    color: black;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  background: white;
+  color: black;
 }
 
 h1 {
-  font-size: 30px;
+font-size: 30px;
 }
 
 h2 {
-  font-size: 24px;
+font-size: 24px;
 }
 
 h3 {
-  font-size: 24px;
+font-size: 24px;
 }
 
 p {
-  font-family: 'Zilla Slab', serif;
-  font-size: 18px;
+font-family: 'Zilla Slab', serif;
+font-size: 18px;
 }
 
 .flight__date__desc {
-  font-size: 16px;
-  font-family: 'Zilla Slab', serif;
+font-size: 16px;
+font-family: 'Zilla Slab', serif;
 }
 
 .flight__name__desc {
-  font-size: 20px;
-  font-family: 'Allison', cursive;
+font-size: 20px;
+font-family: 'Allison', cursive;
 }
 
 .flight__place__desc {
-  font-size: 16px;
-  font-family: 'Zilla Slab', serif;
+font-size: 16px;
+font-family: 'Zilla Slab', serif;
 }
 
 nav {
-  background: #ffffff;
+  background: white;
   height: 80px;
   width: 100%;
 }
@@ -72,28 +72,21 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(25, 92, 77);
+  color: black;
   font-weight: 500;
   font-size: 20px;
   padding: 7px 13px;
   font-family: 'Orbitron', sans-serif;
 }
 
-a.tooltip:hover {
- color: black;
- -webkit-animation: none;
- -moz-animation: none;
- animation: none;
-}
-
 a.active {
   border: 2px solid;
-  color: rgb(12, 26, 87);
+  color: black;
 }
 
 .checkbtn {
   font-size: 30px;
-  color: rgb(25, 92, 77);
+  color: black;
   float: right;
   line-height: 80px;
   margin-right: 40px;
